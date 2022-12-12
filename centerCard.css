@@ -1,0 +1,32 @@
+.centerCard{
+    display: flex;
+}
+.centerCardLeft{
+    flex: 6;
+    background-color: aqua;
+    overflow: hidden;
+
+
+}
+.centerCardRight{
+    flex: 6;
+    
+    
+}
+.centerCardLeft>img{
+    transform: scaleX(1.05) translateX(0);
+    transition: transform .45s cubic-bezier(.61,1,.88,1);
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: none;
+}
+.centerCardRightImg{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+
+.centerCardRightImg:hover{
+transform: scale(0.9);
+}
